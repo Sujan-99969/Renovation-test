@@ -1,0 +1,391 @@
+/*Importing default angular material css theme. */
+
+@import "@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "nDefaults.scss";
+
+
+// Navbar
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+
+
+}
+.nav-background{
+background-color: #252636;
+}
+.white-color:hover{
+background-color: #111116;
+ border-bottom: 3px solid #fcb900;
+  display: flex;
+}
+.yellow-bottomline{
+    border-bottom: 3px solid #fcb900;
+}
+.white-color{
+    color: #ffff;
+}
+
+
+.h-18{
+       height: 18vh;
+
+}
+.height-100{
+        height: 100%;
+
+}
+.font-16{
+        font-size: 16px;
+
+}
+.not-show{
+    display: none;
+}
+
+
+// carousal
+
+.bg-white{
+    background-color: rgba(255, 255, 255, 0.88);
+}
+.bg-fullwhite{
+    background-color: #fff;
+}
+.black-color{
+color: #000;
+}
+
+.font-opacity{
+    opacity: 0.7;
+
+}
+.parent-position{
+    position: relative;
+        height: 2vh;
+
+}
+.child-position{
+    z-index: 15;
+    // position: absolute;
+        transform: translate(114px, -342px);
+
+    width: 43%;
+   
+    font-size: 30px;
+    padding: 35px 43px;
+    // top: 18rem;
+    // left: 9%;
+}
+
+
+
+.portfolio-btn{
+color: #ffff;
+    width: 33%;
+    top: 79%;
+    position: absolute;
+    left: 5%;
+    padding: 18px;
+    display: flex;
+    font-size: 15px;
+}
+.mat-icon{
+        border: 1px solid #fff;
+    border-radius: 18px;
+    color: transparent;
+
+}
+.carousal-dots{
+        top: 18rem;
+    position: absolute;
+    width: 100%;
+    left: 82%;
+}
+
+// service-sec
+
+
+.service-head{
+    font-size: 33px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    font-weight: normal;
+        
+
+}
+
+.service-subhead{
+    color: rgba(2,2,2,0.46);
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+     font-weight: normal;
+}
+.no-boxshadow{
+    box-shadow:none !important;
+}
+.tool-padding{
+        padding: 40px 40px 10px 40px;
+}
+.mat-card{
+padding: 0 !important;
+    background: none !important
+
+}
+.yelloe-btn{
+    background-color: #fcb900;
+        padding: 10px;
+    font-size: 16px;
+    line-height: 3.3em;
+}
+.mat-button-wrapper{
+     padding: 10px;
+    font-size: 16px;
+    line-height: 3.3em;
+}
+
+// clients are saying
+
+.mini-dp{
+height: 75px;
+    width: 75px !important;
+    // padding: 60px;
+    border-radius: 50%;
+        margin: 0 auto !important;
+
+     border-top-left-radius: 50% !important;
+    border-top-right-radius: 50% !important;
+
+}
+.clientcard-boxshadow{
+   box-shadow: 0px 0px 20px 5px rgb(0 0 0 / 7%) !important ;
+}
+
+
+// contact section
+
+.orenge-back
+{
+   background-color: #f59720;
+}
+
+
+
+
+
+
+.mat-select-placeholder{
+color: #fff !important;
+}
+.mat-form-field-infix{
+    padding: 0 !important;
+     width: 30% !important;
+}
+.mat-form-field-wrapper{
+    padding: 0px !important;
+margin: 0px !important;
+}
+.mat-select-arrow{
+
+    color: #fff !important;
+}
+.mat-select-arrow-wrapper{
+transform: none !important; 
+
+}
+.mat-form-field-flex{
+padding:0px !important;
+margin: 0px !important;
+}
+
+
+.opacity{
+    opacity: 0.7;
+}
+.fabicon-style{
+  background: transparent !important;
+    box-shadow: none  !important;
+      color: #100880 !important;
+}
+.border-blue{
+    border: 2px solid #38a0de;
+    border-radius: 5px;
+}
+.color-1-dots{
+    background-color:#2323b7;
+    width:14px;
+    height:14px;
+}
+.color-2-dots{
+        background-color:#00009ba3;
+        width:14px;
+        height:14px;
+
+}
+.color-3-dots{
+    background-color:#6767e094;
+    width:14px;
+    height:14px;
+
+}
+.pad-10{
+    padding: 10px  !important;
+}
+.pad-20{
+    padding: 20px !important;
+}
+.pad-30{
+    padding: 30px !important;
+}
+.pad-40{
+    padding: 40px;
+}
+.pad-47{
+    padding: 47px !important;
+}
+.pad-50{
+    padding: 50px;
+}
+.pad-bottom-30{
+    padding-bottom: 30px;
+
+}
+
+.margin-5{
+    margin: 5px;
+}
+.margin-10{
+    margin: 10px;
+}
+.margin-20{
+    margin: 20px;
+}
+.margin-30{
+    margin: 30px;
+}
+.margin-40{
+    margin: 40px;
+}
+.margin-top-20{
+margin-top: 20px;
+}
+.margin-top-30{
+margin-top: 30px;
+}
+.margin-top-40{
+margin-top: 40px;
+}
+.margin-bottom-20{
+margin-bottom: 20px;
+}
+.margin-bottom-15{
+margin-bottom: 15px;
+}
+.width-16{
+    width: 18%;
+}
+.width-30{
+    width: 30%;
+}
+.width-50{
+    width: 50%;
+}
+.width-70{
+    width: 70%;
+}
+.width-65{
+    width: 65%;
+}
+.width-100{
+    width: 100%;
+}
+.dark-blue{
+    color: #100880;
+    font-weight: bold;
+}
+.hr-line{
+border-bottom: 1.5px solid #ddd;
+}
+.lightblue-back{
+background-color: #0399ff12;
+}
+
+.print-icon{
+        color: #38a0de !important;
+
+}
+
+// ----------------
+
+// table
+
+.tableheader{
+    background-color: #eee;
+    border-right: 1px solid #bbb;
+    
+}
+.mat-header-cell{
+    padding-left: 20px ;
+}
+.mat-cell{
+     padding-left: 20px ;
+}
+.align-items{
+    align-content: flex-start ;
+}
+
+// Mobile-Responsive
+.mobile-child{
+    z-index: 15;
+    transform: translate(63px, -249px);
+    width: 43%;
+    font-size: 9px;
+    padding: 23px 20px;
+}
+
+.portfolio-mobile-btn {
+    color: #ffff;
+    width: 58%;
+    top: 70% !important;
+    position: absolute;
+    left: 8% !important;
+    padding: 9px;
+    display: flex;
+    font-size: 12px;
+}
+// .mat-button-wrapper{
+// padding: 0px;
+//     font-size: 9px;
+//     line-height: 2.3em;
+// }
+.mat-raised-button{
+    width:100% !important;
+}
+
+
+
+// tab-responsive
+
+.tab-child{
+        z-index: 15;
+    transform: translate(124px, -334px);
+    width: 48%;
+    font-size: 19px;
+    padding: 35px 43px;
+}
+
+.portfolio-tab-btn {
+    color: #ffff;
+    width: 42%;
+    top: 72%;
+    position: absolute;
+    left: 8%;
+    padding: 18px;
+    display: flex;
+    font-size: 17px;
+}
+

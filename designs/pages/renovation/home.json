@@ -1,0 +1,78 @@
+[
+    {
+        "id": "sd_Z7TqB3YBAiRalo7Y",
+        "type": "tab",
+        "createdDate": "2023-01-30T11:26:23.920Z",
+        "label": "home",
+        "disabled": false,
+        "info": "",
+        "functionSeq": 0,
+        "generateNext": true,
+        "serviceName": "homeComponent"
+    },
+    {
+        "id": "sd_2RCsyyaAAzNrEUPF",
+        "type": "OnInit",
+        "z": "sd_Z7TqB3YBAiRalo7Y",
+        "viewType": "common",
+        "nodeType": "start",
+        "name": "",
+        "functionName": "sd_2RCsyyaAAzNrEUPF",
+        "category": "Lifecycle Events",
+        "x": 30,
+        "y": 30,
+        "wires": [
+            [
+                "sd_CzQLx1mbrhPMrush"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "homeComponent"
+    },
+    {
+        "id": "sd_CzQLx1mbrhPMrush",
+        "type": "PageVariables",
+        "z": "sd_Z7TqB3YBAiRalo7Y",
+        "viewType": "pages",
+        "nodeType": "flow",
+        "name": "",
+        "inputs": 1,
+        "outputs": 1,
+        "operation": "set",
+        "globalVariables": [],
+        "functionName": "sd_CzQLx1mbrhPMrush",
+        "category": "Function",
+        "x": 180,
+        "y": 30,
+        "wires": [
+            [
+                "sd_seRCFt4DwZMEJn1E"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "serviceName": "homeComponent",
+        "generated": true
+    },
+    {
+        "id": "sd_seRCFt4DwZMEJn1E",
+        "type": "Script",
+        "z": "sd_Z7TqB3YBAiRalo7Y",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "\n\npage.services=[\n\n{\n    image:\"/assets/Web/images/construction-icon.png\",\n    name:\"Construction\",\n    desc:\"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.\"\n\n\n},\n{\n    image:\"/assets/Web/images/roofing-icon.png\",\n    name:\"ROOFING\",\n    desc:\"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.\"\n\n\n},\n{\n    image:\"/assets/Web/images/remodeling-icon.png\",\n    name:\"REMODELING\",\n    desc:\"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.\"\n\n\n}\n]\n\npage.works= [\n{\n    image:\"/assets/Web/images/home-kitchen.jpg\",\n    \n},\n\n{\n    image:\"/assets/Web/images/portfolio-2.jpg\"\n},\n{\n    image:\"/assets/Web/images/portfolio-3.jpg\",\n    \n},\n]\n\npage.names= [\n{\n    image:\"/assets/Web/images/female.jpg\",\n    name:\"Jane Doe\",\n    jobtitle:\"Home Owner\",\n    desc:\"Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. \"\n},\n\n{\n    image:\"/assets/Web/images/male.jpg\",\n    name:\"Jane Doe\",\n    jobtitle:\"Business Owner\",\n    desc:\"Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. \"\n},\n\n]\n",
+        "functionName": "sd_seRCFt4DwZMEJn1E",
+        "category": "Function",
+        "x": 340,
+        "y": 40,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "serviceName": "homeComponent",
+        "generated": true
+    }
+]
